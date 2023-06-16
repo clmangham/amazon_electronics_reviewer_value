@@ -4,3 +4,4 @@
 !clean_merged_df_sample.json
 *.DS_Store
 *.parquet
+data_extraction.ipynb
