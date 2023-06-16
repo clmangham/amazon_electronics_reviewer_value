@@ -1,3 +1,6 @@
 *.json
+!meta_elect_df_sample.json
+!e5_core_df_sample.json
+!clean_merged_df_sample.json
 *.DS_Store
 *.parquet
