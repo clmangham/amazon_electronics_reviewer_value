@@ -2,9 +2,7 @@
 Vinu Lakkur and Camaron Mangham SIADS 503 Milestone 1 Project
 
 ## Background
-Our original motivation was to gain a stronger understanding of consumer behavior for two categories of products - electronics and clothing - and how macroeconomic factors such as GDP/inflation and season tend to affect consumer behavior. The primary dataset, derived from a dataset of Amazon product reviews developed by researchers at UC San Diego, was utilized in a statistical analysis of marketing bias in product recommendations. Our aim was to analyze and consider metrics including market basket analysis, user lifetime value, and larger trends in spend volume. As we explored the data we discovered limitations such as a lack of dollar values for products and inconsistent primary keys needed to obtain those values from the original dataset. This resulted in a shift in our objectives. 
-
-We focused our goal toward assessing “reviewer lifetime value” and larger trends in spend volume by analyzing reviews of Amazon purchases. The Amazon reviews dataset contains 233.1 million reviews across all categories of product, so we will only focus on a subset of the electronics category, which only contains about 6.7 million records (the full electronics dataset contains almost 21 million records). The results of such analysis could provide insight into the characteristics of different customer groups that leave reviews for items. This information could also be compared and contrasted with other groups of customers such as those that do not leave reviews. In a business setting, such information could be valuable in order to determine how much business effort to put toward either capturing or communicating with certain sets of reviewers/customers. Overall, the motivation for this analysis is inspired by the common practice of determining customer lifetime value (CLV) to understand customer segments and build customer relationships[3-4], and a desire to apply big data and data mining concepts.
+Our goal was to asseess “reviewer lifetime value” and larger trends in spend volume by analyzing reviews of Amazon purchases. The Amazon reviews dataset contains 233.1 million reviews across all categories of product, so we will only focus on a subset of the electronics category, which only contains about 6.7 million records (the full electronics dataset contains almost 21 million records). The results of such analysis could provide insight into the characteristics of different customer groups that leave reviews for items. This information could also be compared and contrasted with other groups of customers such as those that do not leave reviews. In a business setting, such information could be valuable in order to determine how much business effort to put toward either capturing or communicating with certain sets of reviewers/customers. Overall, the motivation for this analysis is inspired by the common practice of determining customer lifetime value (CLV) to understand customer segments and build customer relationships[3-4], and a desire to apply big data and data mining concepts.
 
 
 ## Key Findings and Challenges
@@ -20,7 +18,7 @@ Consumer Behavior, Product Reviews, Amazon Electronics, Customer Lifetime Value,
 
 
 ## Data Sources
-The datasets are available as compressed JSON files via download at: https://nijianmo.github.io/amazon/index.html:
+The datasets, derived from a dataset of Amazon product reviews developed by researchers at UC San Diego, available as compressed JSON files via download at: https://nijianmo.github.io/amazon/index.html:
 
 - Amazon Electronics Reviews 5-core (4.19 GB JSON): Contains 6,739,590 user reviews from 1999 to 2018. These data have been reduced to extract the k-core, such that each of the remaining users and items have k reviews each 
 - Amazon Electronics transaction metadata (11 GB JSON): Includes descriptions, price, sales-rank, brand info, and co-purchasing links for 786,868 products.
