@@ -5,3 +5,4 @@
 *.DS_Store
 *.parquet
 data_extraction.ipynb
+electronics_analysis.ipynb
