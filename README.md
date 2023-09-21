@@ -26,6 +26,6 @@ The datasets, derived from a dataset of Amazon product reviews developed by rese
 - Amazon Electronics transaction metadata (11 GB JSON): Includes descriptions, price, sales-rank, brand info, and co-purchasing links for 786,868 products.
 
 ## Using these notebooks
-This project was built in MacOS and Windows OS. Dependencies are recordes as *environment.yml* (Mac environment) and *requirements.txt* (Windows environment). 
+This project was built in MacOS and Windows OS. Dependencies are available as *environment.yml* and *requirements.txt*. 
 
 Data samples are provided for reference (first 100 rows of both original sets and the dataset engineered for analysis), but it will be necessary to download the original files to replicate the notebooks in their entirety.
