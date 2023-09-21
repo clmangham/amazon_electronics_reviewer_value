@@ -66,13 +66,13 @@ Descriptive statistics including the number of reviews, the number of reviewers,
     <img width="693" height="306" src = "src/images/total_spend.png">
 </p>
 
-A majority of the reviews and spending fall between 2014-2017 which marks a period of rapid growth for Amazon. Key events during this time include a partnership with the US Postal Service for Sunday deliveries in 2014, the acquisition of a live streaming platform Twitch in 2014 (100 million monthly users in 2015), and the acquisition of Whole Foods in 2017
+A majority of the reviews and spending fall between 2014-2017 which marks a period of rapid growth for Amazon. **Key events during this time include a partnership with the US Postal Service for Sunday deliveries in 2014, the acquisition of a live streaming platform Twitch in 2014 (100 million monthly users in 2015), and the acquisition of Whole Foods in 2017.**
 
 <p align="center">
     <img width="693" height="306" src = "src/images/median_spend.png">
 </p>
 
-Median spending by reviewers is close to $11 on average, with the trend being mostly consistent each year (finding #3). 
+Median spending by reviewers is close to $11 on average, with the trend being mostly consistent each year.
 
 Further analysis could provide insight as to how the price category (cheap, average, expensive) correlates with the volume of reviews.
 
@@ -100,7 +100,7 @@ The model explained variability in the data with mixed results (RMSE: 274.590376
     <img src = "src/images/LTV_predictions.png">
 </p>
 
-Ultimately the features we created were able to add some predictive value regarding reviewers’ LTV. The R2 value of .38 showed this. However, we don’t feel it was a smoking gun in terms of predicting future LTV in order to make business decisions. Additionally, price of firrst product reviewed was the biggest determinant of future LTV, and that could potentially be because some reviewers only reviewed one product, and, in those cases, price of first product reviewed is equal to their LTV.
+Ultimately the features we created were able to add some predictive value regarding reviewers’ LTV. The R2 value of 0.38 showed this. However, we don’t feel it was a smoking gun in terms of predicting future LTV in order to make business decisions. Additionally, price of firrst product reviewed was the biggest determinant of future LTV, and that could potentially be because some reviewers only reviewed one product, and, in those cases, price of first product reviewed is equal to their LTV.
 
 ## Summary
 
